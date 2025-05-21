@@ -1,9 +1,8 @@
 # Genetic Image Recreation
 
-[![GitHub stars](https://img.shields.io/github/stars/username/genetic-image-recreation?style=social)](https://github.com/username/genetic-image-recreation/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/username/genetic-image-recreation?style=social)](https://github.com/username/genetic-image-recreation/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/username/genetic-image-recreation)](https://github.com/username/genetic-image-recreation/issues)
-[![GitHub license](https://img.shields.io/github/license/username/genetic-image-recreation)](https://github.com/username/genetic-image-recreation/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/vonuyvicoo/genetic-image-recreation?style=social)](https://github.com/vonuyvicoo/genetic-image-recreation/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vonuyvicoo/genetic-image-recreation?style=social)](https://github.com/vonuyvicoo/genetic-image-recreation/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/vonuyvicoo/genetic-image-recreation)](https://github.com/vonuyvicoo/genetic-image-recreation/issues)
 [![Java](https://img.shields.io/badge/Java-8%2B-orange)](https://www.java.com)
 
 ![Genetic Image Recreation Demo](images/demo.png)
