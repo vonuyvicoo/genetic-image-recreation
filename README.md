@@ -11,6 +11,8 @@
 
 Genetic Image Recreation is a Java application that uses genetic algorithms to recreate images pixel by pixel. The program analyzes a source image and evolves a solution that attempts to match it using evolutionary computation techniques.
 
+https://github.com/user-attachments/assets/bbfc0b52-60b7-4f96-921c-0594bc37318d
+
 ## Features
 
 - Load any image file (JPG, PNG, GIF, BMP)
