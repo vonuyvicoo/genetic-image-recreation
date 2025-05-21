@@ -401,7 +401,19 @@ public class ImageRecreationPanel extends JPanel {
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             if (image != null) {
-                g.drawImage(image, 0, 0, this);
+                int panelWidth = getWidth();
+                int panelHeight = getHeight();
+                int imgWidth = image.getWidth();
+                int imgHeight = image.getHeight();
+                
+                double scale = Math.min((double)panelWidth / imgWidth, (double)panelHeight / imgHeight);
+                
+                int scaledWidth = (int)(imgWidth * scale);
+                int scaledHeight = (int)(imgHeight * scale);
+                int x = (panelWidth - scaledWidth) / 2;
+                int y = (panelHeight - scaledHeight) / 2;
+                
+                g.drawImage(image, x, y, scaledWidth, scaledHeight, this);
             }
         }
     }
@@ -436,7 +448,19 @@ public class ImageRecreationPanel extends JPanel {
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             if (canvas != null) {
-                g.drawImage(canvas, 0, 0, this);
+                int panelWidth = getWidth();
+                int panelHeight = getHeight();
+                int imgWidth = canvas.getWidth();
+                int imgHeight = canvas.getHeight();
+                
+                double scale = Math.min((double)panelWidth / imgWidth, (double)panelHeight / imgHeight);
+                
+                int scaledWidth = (int)(imgWidth * scale);
+                int scaledHeight = (int)(imgHeight * scale);
+                int x = (panelWidth - scaledWidth) / 2;
+                int y = (panelHeight - scaledHeight) / 2;
+                
+                g.drawImage(canvas, x, y, scaledWidth, scaledHeight, this);
             }
         }
         
